@@ -65,10 +65,22 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\animations.css" />
+    <Content Include="images\001.jpg" />
+    <Content Include="images\002.jpg" />
+    <Content Include="images\003.jpg" />
+    <Content Include="images\004.jpg" />
+    <Content Include="images\005.jpg" />
+    <Content Include="images\006.jpg" />
+    <Content Include="images\007.jpg" />
+    <Content Include="images\008.jpg" />
+    <Content Include="images\009.jpg" />
+    <Content Include="js\debug.min.js" />
+    <Content Include="P2.html" />
     <Content Include="P1.html" />
-    <Content Include="touch.js" />
+    <Content Include="js\touch.js" />
     <Content Include="Web.config" />
-    <Content Include="zepto.js" />
+    <Content Include="js\zepto.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
