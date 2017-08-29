@@ -79,6 +79,7 @@
     <Content Include="P2.html" />
     <Content Include="P1.html" />
     <Content Include="js\touch.js" />
+    <Content Include="P3.html" />
     <Content Include="Web.config" />
     <Content Include="js\zepto.js" />
   </ItemGroup>
