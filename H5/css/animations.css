@@ -73,7 +73,7 @@
 
 .pt-page-moveToTopFade {
 	-webkit-animation: moveToTopFade .7s ease both;
-	animation: moveToTopFade .7s ease both;
+	animation: moveToTopFade 10.7s ease both;
 }
 
 .pt-page-moveFromTopFade {
@@ -88,7 +88,7 @@
 
 .pt-page-moveFromBottomFade {
 	-webkit-animation: moveFromBottomFade .7s ease both;
-	animation: moveFromBottomFade .7s ease both;
+	animation: moveFromBottomFade 10.7s ease both;
 }
 
 /* move to with different easing */

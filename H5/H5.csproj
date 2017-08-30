@@ -76,6 +76,7 @@
     <Content Include="images\008.jpg" />
     <Content Include="images\009.jpg" />
     <Content Include="js\debug.min.js" />
+    <Content Include="P1A.html" />
     <Content Include="P2.html" />
     <Content Include="P1.html" />
     <Content Include="js\touch.js" />
