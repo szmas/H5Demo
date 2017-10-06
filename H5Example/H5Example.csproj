@@ -57,7 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Drag&amp;Drop.html" />
+    <Content Include="websocket\websocket.html" />
+    <Content Include="ie兼容模式.html" />
+    <Content Include="websocket\WSockets.aspx" />
+    <Content Include="拖拽\Drag&amp;Drop.html" />
     <Content Include="geolocation.html" />
     <Content Include="hivideo\.git\config" />
     <Content Include="hivideo\.git\description" />
@@ -131,6 +134,12 @@
     <Content Include="hivideo\.git\refs\heads\master" />
     <Content Include="hivideo\.git\refs\remotes\origin\HEAD" />
     <Content Include="hivideo\README.md" />
+    <Content Include="SSE\SSE.aspx" />
+    <Content Include="SSE\SSE.html" />
+    <Content Include="轮询\LongPolling.aspx" />
+    <Content Include="轮询\Polling.aspx" />
+    <Content Include="轮询\轮询.html" />
+    <Content Include="轮询\长轮询.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -139,7 +148,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="audio.html" />
+    <Content Include="audio\audio.html" />
     <Content Include="fullscreen.html" />
     <Content Include="Global.asax" />
     <Content Include="hivideo\assets\hivideo.css" />
@@ -155,7 +164,7 @@
     <Content Include="hivideo\hivideo.js" />
     <Content Include="hivideo\index.html" />
     <Content Include="HtmlPage1.html" />
-    <Content Include="video.html" />
+    <Content Include="video\video.html" />
     <Content Include="Web.config" />
     <Content Include="webcss\reset.css" />
     <Content Include="webfiles\1.1.如何创建ASP.NET MVC项目.mp4" />
@@ -166,6 +175,34 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SSE\SSE.aspx.cs">
+      <DependentUpon>SSE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SSE\SSE.aspx.designer.cs">
+      <DependentUpon>SSE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="websocket\WSockets.aspx.cs">
+      <DependentUpon>WSockets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="websocket\WSockets.aspx.designer.cs">
+      <DependentUpon>WSockets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="轮询\LongPolling.aspx.cs">
+      <DependentUpon>LongPolling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="轮询\LongPolling.aspx.designer.cs">
+      <DependentUpon>LongPolling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="轮询\Polling.aspx.cs">
+      <DependentUpon>Polling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="轮询\Polling.aspx.designer.cs">
+      <DependentUpon>Polling.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
